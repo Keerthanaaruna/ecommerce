@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Genos", sans-serif;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar{
+    padding-top: 1rem;
+    background-color: #344042;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;  
+    justify-content: space-between;  
+}
+
+.hd-1 {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 1.4rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    height: 38rem;
+}
+
+
+.ph-img img{
+    filter: drop-shadow(5px 5px 6px #fff);
+}
+
+.ph-h {
+    margin: 2%;
+}
+
+.btn-m {
+    margin: 2rem;
+    text-align: center;
+}
+
+.btn-m button {
+    width: 8rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 2rem 0 2rem 0;
+    filter: drop-shadow(1px 1px 2px #fff);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-m button:hover {
+
+    background-color: #2d3436;
+    color: #fff;
+}
+
+.ph-h h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ph-h p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.abt {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.abt h1 {
+    font-size: 2.7rem;
+}
+
+.abt p {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.specs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.spec-s {
+    border: solid 1px #fff;
+    width: 17rem;
+    height: 7rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.spec-s h2 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.spec-s p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+@media (max-width : 580px) {
+    .ph-img img{
+        width: 21rem;
+    }
+
+}
